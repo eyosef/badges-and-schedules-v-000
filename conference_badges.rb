@@ -23,9 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badges = []
-  attendees.map! do |attendees|
-    badges << "Hello, my name is #{attendees}."
+    print "Hello, my name is #{attendees}."
   end
-  puts badges
 end
