@@ -24,4 +24,4 @@ end
 
 def printer(attendees)
     print "Hello, my name is #{attendees}."
-end
+end #method
