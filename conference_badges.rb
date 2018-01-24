@@ -20,7 +20,7 @@ def batch_badge_creator(names)
       badges << "Hello, my name is #{names}."
     end
     badges
-end #method #START HERE - RESEARCH map approach
+end #method
 
 def assign_rooms(attendees)
 end
