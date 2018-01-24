@@ -25,6 +25,7 @@ end #method
 def assign_rooms(attendees)
   room_assignments = []
   attendees.map! do |attendees|
+    room_assignments << "Hello, Edsger! You'll be assigned to room 1!"
 
 end
 
