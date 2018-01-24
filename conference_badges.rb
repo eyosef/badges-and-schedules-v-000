@@ -23,7 +23,9 @@ def batch_badge_creator(names)
 end #method
 
 def assign_rooms(attendees)
-  attendees = []
+  room_assignments = []
+
+
 end
 
 def printer
