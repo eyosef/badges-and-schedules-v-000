@@ -23,7 +23,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-    attendees.map.with_index do |name|
+    attendees.map.with_index do |name, index|
     puts "Hello, my name is #{name}."
   end #method
 end #method
