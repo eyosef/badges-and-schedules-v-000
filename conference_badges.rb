@@ -23,6 +23,7 @@ def batch_badge_creator(names)
 end #method
 
 def assign_rooms(attendees)
+  attendees = []
 end
 
 def printer
