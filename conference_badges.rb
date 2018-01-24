@@ -24,7 +24,7 @@ end #method
 
 def assign_rooms(attendees)
   room_assignments = []
-
+  attendees.map! do |attendees|
 
 end
 
