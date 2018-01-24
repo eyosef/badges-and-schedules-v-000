@@ -23,7 +23,10 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-    attendees.each do |attendees|
-    puts "Hello, my name is #{attendees}."
-  end #each
+      badges = []
+      names.map! do |names|
+        badges << "Hello, my name is #{names}."
+      end
+      badges
+    end #map
 end #method
