@@ -24,8 +24,8 @@ end
 
 def printer(attendees)
   badges = []
-  names.map! do |names|
-    badges << "Hello, my name is #{names}."
+  attendes.map! do |attendees|
+    badges << "Hello, my name is #{attendees}."
   end
   badges
 end
