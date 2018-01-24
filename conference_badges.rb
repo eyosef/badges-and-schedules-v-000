@@ -16,7 +16,6 @@ end
 
 def batch_badge_creator(names)
     badges.map { |name| badges! << "Hello, my name is #{name}." }
-  end #map
     badges
 end #method #START HERE - RESEARCH map approach
 
