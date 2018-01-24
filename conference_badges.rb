@@ -28,5 +28,4 @@ def printer(attendees)
         badges << "Hello, my name is #{names}."
       end
       puts badges
-    end #map
 end #method
