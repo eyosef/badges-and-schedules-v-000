@@ -24,7 +24,7 @@ end #method
 
 def assign_rooms(attendees)
   room_assignments = []
-  attendees.map.with_index do |attendees|
+  attendees.map.with_index do |attendees, index|
     room_assignments << "Hello, #{attendees}! You'll be assigned to room #{attendees}!"
   end
     room_assignments
