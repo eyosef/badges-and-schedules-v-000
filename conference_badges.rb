@@ -25,8 +25,8 @@ end #method
 def assign_rooms(attendees)
   room_assignments = []
   room_num = [1, 2, 3, 4, 5, 6, 7, 8]
+    room_num.map! do |room_num|
   attendees.map! do |attendees|
-  room_num.map! do |room_num|
     room_assignments << "Hello, #{attendees}! You'll be assigned to room #{room_num}!"
   end
   room_assignments
