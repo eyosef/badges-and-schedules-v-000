@@ -23,5 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+    attendees.each do |attendees|
     print "Hello, my name is #{attendees}."
 end #method
