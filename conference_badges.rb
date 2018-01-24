@@ -16,7 +16,7 @@ end
 
 def batch_badge_creator(names)
     badges = []
-    badges.map! do |names|
+    names.map! do |names|
       "Hello, my name is #{name}."
     end
     badges
